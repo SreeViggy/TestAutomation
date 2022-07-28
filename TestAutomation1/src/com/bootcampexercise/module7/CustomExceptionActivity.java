@@ -1,7 +1,5 @@
 package src.com.bootcampexercise.module7;
 
-
-
 //Needs to be completed
 //1 - extend this class from Exception class
 public class CustomExceptionActivity extends Exception{

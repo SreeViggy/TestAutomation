@@ -10,7 +10,10 @@ public class CustomExceptionActivityTest {
     //Call this method with different names to test it
 
     public static void main(String[] args) {
-        validateUser("Vignesh");
+        String[] users = {"Vignesh", "John", "Mike", "Shivani"};
+        for(int i = 0; i <users.length; i++) {
+            validateUser(users[i]);
+        }
     }
 
     public static void validateUser(String name) {
