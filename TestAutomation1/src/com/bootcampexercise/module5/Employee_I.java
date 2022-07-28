@@ -15,7 +15,7 @@ package src.com.bootcampexercise.module5;
 
         //TODO: write getter for int salary
         public double getSalary() {
-            return this.salary;
+            return salary;
         }
 
 

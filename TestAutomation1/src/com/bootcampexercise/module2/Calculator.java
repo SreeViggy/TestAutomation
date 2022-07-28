@@ -1,10 +1,10 @@
 package src.com.bootcampexercise.module2;
 
 public class Calculator {
+    public static int num1 = 15;
+    public static int num2 = 20;
     public static void main(String[] args) {
-        int num1 = 15;
-        int num2 = 20;
-        System.out.println("Subtraction of "+num1 +" and "+num2+subtract(num1, num2));
+        System.out.println("Subtraction of "+num1 +" and "+num2+" = " + subtract(num1, num2));
         System.out.println(num1 + " divided by " + num2 + " = " + divide(num1, num2));
     }
 

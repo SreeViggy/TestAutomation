@@ -2,7 +2,7 @@ package src.com.bootcampexercise.module5;
 
 public class AbstractActivity {
     public static void main(String args[]) {
-        // set and Print color of rectangle
+
        Shape rectangle = new Rectangle();
        rectangle.setColor("Blue");
        System.out.println("The color of the rectangle is "+rectangle.getColor());
