@@ -1,8 +1,7 @@
-package src.com.bootcampexercise.Module10.Actvity3;
+package src.com.bootcampexercise.Module10.Activity3;
 
 import junit.framework.TestCase;
 import org.junit.Assert;
-import src.com.bootcampexercise.Module9.Person;
 
 /**
  * @author vigneshkrishnan

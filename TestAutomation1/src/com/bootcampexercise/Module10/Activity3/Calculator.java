@@ -1,4 +1,4 @@
-package src.com.bootcampexercise.Module10.Actvity3;
+package src.com.bootcampexercise.Module10.Activity3;
 
 
 import java.util.InputMismatchException;
