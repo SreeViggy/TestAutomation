@@ -1,10 +1,14 @@
-package src.com.bootcampexercise.Module10;
+package src.com.bootcampexercise.Module10.Activity2;
+
+import src.com.bootcampexercise.Module10.Activity1.Person;
+
+import java.util.List;
 
 /**
  * @author Vignesh Krishnan
  **/
 
- public class Employee extends Person{
+ public class Employee extends Person {
    private String jobTitle;
    private String company;
    private double salary;
@@ -14,6 +18,12 @@ package src.com.bootcampexercise.Module10;
         this.jobTitle = "Unknown";
         this.company = "Unknown";
         this.salary = 0;
+    }
+
+    public Employee(String jobTitle, String company, double salary) {
+        this.jobTitle = jobTitle;
+        this.company = company;
+        this.salary = salary;
     }
 
     // getter for String JobTitle
@@ -50,6 +60,16 @@ package src.com.bootcampexercise.Module10;
     public void introduce() {
         System.out.println("My Name is " + getName() + " and I am "+ getAge() +" years old");
         System.out.println("I am a " + getJobTitle() + " and My Salary is " + getSalary() + "Euros.");
+    }
+
+    public double getHighestPaidEmp(List<Employee> empList) {
+        double largest = 0;
+        for(int i = 0; i <empList.size(); i++) {
+            if(empList.get(i).getSalary() > largest) {
+                largest = empList.get(i).getSalary();
+            }
+        }
+        return largest;
     }
 }
 

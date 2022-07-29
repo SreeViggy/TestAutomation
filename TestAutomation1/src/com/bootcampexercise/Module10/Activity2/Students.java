@@ -1,4 +1,6 @@
-package src.com.bootcampexercise.Module10;
+package src.com.bootcampexercise.Module10.Activity2;
+
+import src.com.bootcampexercise.Module10.Activity1.Person;
 
 public class Students extends Person {
     private String schoolName;

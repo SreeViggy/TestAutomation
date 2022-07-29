@@ -2,7 +2,7 @@
 Created on 29 July, 2020
  */
 
-package src.com.bootcampexercise.Module10;
+package src.com.bootcampexercise.Module10.Activity1;
 
 /**
  * @ Vignesh Krishnan

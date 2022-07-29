@@ -1,4 +1,4 @@
-package src.com.bootcampexercise.Module10.Activity12;
+package src.com.bootcampexercise.Module10.Activity2;
 
 public class AbstractActivity {
 
