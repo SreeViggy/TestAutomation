@@ -3,7 +3,7 @@ package src.com.bootcampexercise.module2;
 public class NumToWords {
     public static void main(String[] args) {
 
-        int x = 5;
+        int x = 25;
         switch(x) {
             case 1:
                 System.out.println("The number is "+x+" = ONE");
